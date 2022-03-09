@@ -59,17 +59,7 @@ def register(email, username, password, first_name, last_name, birthday="1974-11
     def main():  # This function is used to execute the login process only if the file was run directly, and not imported.
         RegisterClient()
 
-    class RegisterClient(KikClientCallback):
-        def __init__(self):  # Constructor for the SpamBotnet class above
-            self.client = KikClient(callback=self, kik_username=None, kik_password=None, device_id_override='IML74K',
-                                    android_id_override='dfb2b4172c4eab65')
-            log.info("[+] Sending sign up request (name: {} {}, email: {})...".format(first_name, last_name, email))
-            print(self.client.register(email, username, password, first_name, last_name, birthday))
-
-        @staticmethod
-        def log_format():
-            return '[%(asctime)-15s] %(levelname)-6s (thread %(threadName)-10s): %(message)s'
-
+   
         def on_sign_up_ended(self, response: RegisterResponse):
             global waiting_for_captcha
             waiting_for_captcha = False
