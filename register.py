@@ -169,18 +169,6 @@ with open('register.csv', 'r') as read_obj:
         while waiting_for_captcha:
             time.sleep(5)
 
-print(captchas)
-if os.path.exists("credentials.txt"):
-    append_write = 'a' # append if already exists
-    try:
-        with open('credentials.txt', "r+") as f:
-            f.seek(0, 2)
-            f.seek(f.tell() - 1, 0)
-            if f.read() != '\n':
-                f.write("\n")
-        f.close()
-    except:
-        pass
 
 else:
     append_write = 'w' # make a new file if not
