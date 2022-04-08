@@ -7,6 +7,8 @@ Must have Chromedriver installed. To find out your Chromedriver version and inst
 Must have the following installed also: https://github.com/tomer8007/kik-bot-api-unofficial
 
 Open up register.csv in your prefered text editor. Replace the values to your liking.
+# DO NOT USE A COMMA IN YOUR PASSWORD! It will rekt your .csv and you WILL have a bad time!
+(Thanks to duzzy, for being the crash test dummy on this one :)
 
 Remember, every email and username must NOT be in use!
 
