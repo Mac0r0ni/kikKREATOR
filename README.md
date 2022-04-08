@@ -16,7 +16,8 @@ If you are making a lot of accounts, i would suggust using the following to chec
 
 https://github.com/Mac0r0ni/KikNameChecker
 
-# More Set-up instructions: After you enter the usernames(and other info) you want to make in the register.csv run register.py.
+# More Set-up instructions: 
+After you enter the usernames(and other info) you want to make in the register.csv run register.py.
 
 It will open up chromedriver.exe and open a browser window going to Kiks captcha, and you will have to solve only 2 (the ones where you "flip" the Animal right side up.
 After you have solved the captha, go back to the register.py window and it will show you instructions (just push any key and enter)
