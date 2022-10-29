@@ -13,15 +13,15 @@ let bday="04-20-1969";
 let data="";
 
 for(i=0; i<amount; i++) {
-	let l=String(amount).length;
+    let l=String(amount).length;
     let n=String(i+1).padStart(l, "0");
     let user=username+""+n;
     let email=user+"@fake.email";
-   data+=`${email},${user},${password},${firstname},${lastname},${bday}\n`;
+    data+=`${email},${user},${password},${firstname},${lastname},${bday}\n`;
 }
 
 var csvFileData = [  
-   [data]
+    [data]
 ];  
       
 function download_csv_file() {  
