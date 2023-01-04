@@ -61,7 +61,7 @@ def register(email, username, password, first_name, last_name, birthday="1974-11
 
     class RegisterClient(KikClientCallback):
         def __init__(self):  # Constructor for the SpamBotnet class above
-            self.client = KikClient(callback=self, kik_username=None, kik_password=None, device_id_override='IML74K',
+            self.client = KikClient(callback=self, kik_username=None, kik_password=None, device_id_override='IML74L',
                                     android_id_override='dfb2b4172c4eab65')
             log.info("[+] Sending sign up request (name: {} {}, email: {})...".format(first_name, last_name, email))
             print(self.client.register(email, username, password, first_name, last_name, birthday))
