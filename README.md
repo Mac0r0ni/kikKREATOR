@@ -1,5 +1,6 @@
 # Kredits:
-- duzzi
+- [Duzzi](https://github.com/DuzziOmacron) - HTML Credentials to CSV
+- [Vylq](https://github.com/VyIq) - For the credential_builder.html
 
 # kikKREATOR
 Automated kik account creator (kinda)
