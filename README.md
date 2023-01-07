@@ -1,3 +1,6 @@
+# Kredits:
+- duzzi
+
 # kikKREATOR
 Automated kik account creator (kinda)
 
